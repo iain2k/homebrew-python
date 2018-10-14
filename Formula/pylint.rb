@@ -1,6 +1,11 @@
 class Pylint < Formula
   include Language::Python::Virtualenv
 
+  desc "Star your Python code"
+  homepage "https://www.pylint.org"
+  url "https://files.pythonhosted.org/packages/04/1f/1d3929051b45c3e4015178c5fe5bbee735fb4e362e0fc4f0fbf3f68647ad/pylint-2.1.1.tar.gz"
+  sha256 "31142f764d2a7cd41df5196f9933b12b7ee55e73ef12204b648ad7e556c119fb"
+  
   depends_on "python"
   
   resource "astroid" do
