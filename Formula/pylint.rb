@@ -28,11 +28,6 @@ class Pylint < Formula
     sha256 "dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"
   end
 
-  resource "pylint" do
-    url "https://files.pythonhosted.org/packages/04/1f/1d3929051b45c3e4015178c5fe5bbee735fb4e362e0fc4f0fbf3f68647ad/pylint-2.1.1.tar.gz"
-    sha256 "31142f764d2a7cd41df5196f9933b12b7ee55e73ef12204b648ad7e556c119fb"
-  end
-
   resource "six" do
     url "https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz"
     sha256 "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
